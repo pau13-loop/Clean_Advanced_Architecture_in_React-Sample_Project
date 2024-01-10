@@ -29,6 +29,8 @@ I hope you enjoy it, best regards!
 
 ## Assets
 
+Folder to store global assets like png, logos, etc
+
 ---
 
 **[⬆ back to top](#table-of-contents)**
