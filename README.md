@@ -16,7 +16,6 @@ I hope you enjoy it, best regards!
   - [Hooks](#hooks)
   - [Layouts](#layouts)
   - [Lib](#lib)
-  - [The idea of this "lib" folder is essentially an implementation of the **facade pattern**. You have to take a library, for example "axios", and wrap the entire library with your own code that exposes the library in its own way. So you essentially have a "facade" that you put over the top of this "axios" library and then you use that **facade** everywhere in your application. So now, if you need to update Axios, you only have to do it in one file in your application and everywhere else, it's just going to work. This makes working with large-scale applications way easier because instead of changing in a million places, you change it in one location.](#the-idea-of-this-lib-folder-is-essentially-an-implementation-of-the-facade-pattern-you-have-to-take-a-library-for-example-axios-and-wrap-the-entire-library-with-your-own-code-that-exposes-the-library-in-its-own-way-so-you-essentially-have-a-facade-that-you-put-over-the-top-of-this-axios-library-and-then-you-use-that-facade-everywhere-in-your-application-so-now-if-you-need-to-update-axios-you-only-have-to-do-it-in-one-file-in-your-application-and-everywhere-else-its-just-going-to-work-this-makes-working-with-large-scale-applications-way-easier-because-instead-of-changing-in-a-million-places-you-change-it-in-one-location)
   - [Pages](#pages)
   - [Services](#services)
   - [Utils](#utils)
@@ -102,6 +101,7 @@ This directory is specifically for components that deal with or set the layout o
 
 This **lib folder is very important** because in a lot of projects you're going to build especially larger projects and you're going to pull in a lot of third-party libraries whether you're using fetch which is built into the browser or you're using axios or any other third-party libraries you're going to want to implement into your code and generally, you're going to put that in many places in your code but what if you need to update the version of one of those libraries, then you'll need to update it all over your code base.
 The idea of this "lib" folder is essentially an implementation of the **facade pattern**. You have to take a library, for example "axios", and wrap the entire library with your own code that exposes the library in its own way. So you essentially have a "facade" that you put over the top of this "axios" library and then you use that **facade** everywhere in your application. So now, if you need to update Axios, you only have to do it in one file in your application and everywhere else, it's just going to work. This makes working with large-scale applications way easier because instead of changing in a million places, you change it in one location.
+
 ---
 
 **[⬆ back to top](#table-of-contents)**
