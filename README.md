@@ -1,5 +1,7 @@
 # Clean Advanced Architecture in React - Sample Project
 
+| ***__Reminder!__*** the files are empty, this is just an architecture template of how a clean advanced design should look in a front-end project.
+
 As mentioned in the description of the GitHub repository, this repository is meant to help people, and me, remember how to keep a clean and good structure in your React front end projects, to be able to scale easily and maintain the project with consistency.
 
 I hope you enjoy it, best regards!
